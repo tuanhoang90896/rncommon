@@ -19,7 +19,6 @@ const DemoAlert = (props) => {
                 title="Show Alert"
                 type="outline"
             />
-
         </View>
     );
 }
