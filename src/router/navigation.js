@@ -5,7 +5,7 @@ import HomeScreen from '../screen/home/components';
 import TueDev from '../screen/tue_dev/components';
 import GoogleLogin from "../screen/common/googleLogin/components";
 import FacebookLogin from "../screen/common/facebookLogin/components";
-import PushNotification from "../screen/common/facebookLogin/components";
+import PushNotification from "../screen/common/pushNotification/components";
 
 const Stack = createStackNavigator();
 

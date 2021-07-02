@@ -18,6 +18,12 @@ target 'RNCommon' do
 
   pod 'react-native-fbsdk-next', :path => '../node_modules/react-native-fbsdk-next'
 
+  pod 'RNFBApp', :path => '../node_modules/@react-native-firebase/app'
+
+  pod 'RNFBMessaging', :path => '../node_modules/@react-native-firebase/messaging'
+
+  pod 'react-native-onesignal', :path => '../node_modules/react-native-onesignal'
+
   target 'RNCommonTests' do
     inherit! :complete
     # Pods for testing
