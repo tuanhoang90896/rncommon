@@ -16,6 +16,8 @@ target 'RNCommon' do
 
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
+  pod 'react-native-fbsdk-next', :path => '../node_modules/react-native-fbsdk-next'
+
   target 'RNCommonTests' do
     inherit! :complete
     # Pods for testing
