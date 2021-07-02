@@ -8,7 +8,12 @@ export const useHome = (props) => {
         console.log('action')
     };
 
+    const openTueDemo = () => {
+        navigation.navigate('TueDev')
+    };
+    
     return {
-        createAction
+        createAction, 
+        openTueDemo
     };
 };

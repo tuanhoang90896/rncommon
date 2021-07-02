@@ -12,6 +12,10 @@ target 'RNCommon' do
     :hermes_enabled => false
   )
 
+  pod 'RNGoogleSignin', :path => '../node_modules/@react-native-google-signin/google-signin'
+
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
   target 'RNCommonTests' do
     inherit! :complete
     # Pods for testing
