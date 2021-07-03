@@ -10,7 +10,7 @@ const DemoAlert = (props) => {
     const { showAlert } = useAlert();
 
     return (
-        <View style={{ flex: 1, padding: 16 }}>
+        <View style={{ padding: 16 }}>
             <Button
                 onPress={() => {
                     showAlert();
