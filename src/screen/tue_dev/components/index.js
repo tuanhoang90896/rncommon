@@ -39,6 +39,16 @@ const TueDev = (props) => {
                     type="outline"
                 />
             </View>
+            <View style={{ padding: 16 }}>
+                <Button
+                    onPress={() => {
+                        navigation.navigate('VoiceSearch')
+                    }}
+                    buttonStyle={{ width: '100%' }}
+                    title="Voice Search"
+                    type="outline"
+                />
+            </View>
         </View>
     );
 };

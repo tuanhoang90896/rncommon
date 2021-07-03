@@ -4,6 +4,7 @@ import {
     StyleSheet,
     Text,
     TouchableHighlight,
+    TouchableOpacity,
     View,
     Button,
 } from "react-native";
@@ -97,14 +98,14 @@ export default class FacebookLogin extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <TouchableHighlight onPress={this._shareLinkWithShareDialog}>
+                <TouchableOpacity onPress={this._shareLinkWithShareDialog} style={{backgroundColor: '#0e8ef1' , borderRadius: 10, marginBottom: 10}}>
                     <Text style={styles.shareText}>
                         Share link with ShareDialog
                     </Text>
-                </TouchableHighlight>
+                </TouchableOpacity>
 
                 {this.state.isLoginFacebook == false ? (
-                <View style={{marginBottom: 10}}>
+                <View style={{marginBottom: 10,}}>
                     <Icon.Button
                     name="facebook"
                     backgroundColor="#0e8ef1"
@@ -141,5 +142,6 @@ const styles = StyleSheet.create({
     shareText: {
         fontSize: 20,
         margin: 10,
+        color: 'white'
     },
 });
